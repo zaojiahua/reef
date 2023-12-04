@@ -1,0 +1,926 @@
+Current Battery Service state:
+  AC powered: true
+  USB powered: false
+  Wireless powered: false
+  status: 2
+  health: 2
+  present: true
+  level: 100
+  scale: 100
+  voltage: 4325
+  current now: -55800
+  temperature: 348
+  technology: Li-ion
+Battery History:
+         -36m24s105ms 100 44120051 status=discharging health=good plug=none temp=339 volt=4090 +screen +wifi +wifi_running +wake_lock brightness=dim signal_strength=excellent
+         -33m22s408ms 099 44120051 volt=4111
+         -28m22s350ms 098 44120051 volt=4080
+         -22m42s357ms 097 44120051 volt=3995
+         -21m26s996ms 097 441a0051 status=charging plug=ac temp=331 volt=4323 +plugged
+         -19m22s393ms 098 441a0051
+         -10m02s389ms 099 441a0051
+          -7m22s355ms 099 441a0051 temp=342
+          -4m22s338ms 100 441a0051
+          -4m12s954ms 100 441a0051 status=full volt=4301
+
+Per-PID Stats:
+  PID 205 wake time: +21s421ms
+  PID 990 wake time: +25s411ms
+  PID 17872 wake time: +12ms
+  PID 205 wake time: +5m20s991ms
+  PID 26962 wake time: +1s231ms
+  PID 990 wake time: +11s421ms
+  PID 30958 wake time: +74ms
+  PID 990 wake time: +11ms
+  PID 990 wake time: +9ms
+  PID 537 wake time: +699ms
+  PID 448 wake time: +904ms
+  PID 990 wake time: +246ms
+  PID 7284 wake time: +70ms
+  PID 990 wake time: +595ms
+  PID 990 wake time: +15ms
+
+Statistics since last charge:
+  System starts: 0, currently on battery: false
+  Time on battery: 14m 57s 354ms (0.0%) realtime, 14m 57s 354ms (0.0%) uptime
+  Total run time: 85d 13h 51m 53s 338ms realtime, 56d 18h 49m 19s 465ms uptime, 
+  Screen on: 14m 57s 354ms (100.0%), Input events: 0, Active phone call: 0ms (0.0%)
+  Screen brightnesses: dim 14m 57s 354ms (100.0%)
+  Kernel Wake lock PowerManagerService.Display: 14m 57s 391ms (0 times) realtime
+  Kernel Wake lock charger_monitor: 8m 54s 214ms (637 times) realtime
+  Kernel Wake lock qcom_rx_wakelock: 2m 57s 723ms (3070 times) realtime
+  Kernel Wake lock PowerManagerService.WakeLocks: 2m 32s 304ms (112 times) realtime
+  Kernel Wake lock qpnp-vadc-f5cfbc00: 4s 56ms (757 times) realtime
+  Kernel Wake lock qpnp_soc_wake: 2s 943ms (45 times) realtime
+  Kernel Wake lock qpnp_wl     : 1s 886ms (1 times) realtime
+  Kernel Wake lock power-supply: 987ms (14 times) realtime
+  Kernel Wake lock ipc000000bf_sensors.qcom: 777ms (6944 times) realtime
+  Kernel Wake lock msm_otg     : 578ms (1 times) realtime
+  Kernel Wake lock alarm       : 414ms (35 times) realtime
+  Kernel Wake lock qpnp-iadc-f5cfbe00: 276ms (48 times) realtime
+  Kernel Wake lock ipc_rtr_q6_ipcrtr: 225ms (6995 times) realtime
+  Kernel Wake lock smdcntl0    : 16ms (37 times) realtime
+  Kernel Wake lock ipc000000bd_sensors.qcom: 14ms (90 times) realtime
+  Kernel Wake lock qcril       : 9ms (37 times) realtime
+  Kernel Wake lock qmuxd_port_wl_0: 6ms (37 times) realtime
+  Kernel Wake lock ipc00000002_kworker/2:1: 2ms (46 times) realtime
+  Kernel Wake lock ipc000000b6_Loc_hal_worker: 1ms (2 times) realtime
+  Kernel Wake lock KeyEvents   : 1ms (30 times) realtime
+  Mobile total received: 0B, Total sent: 0B
+  Wi-Fi total received: 1.75MB, Total sent: 33.54MB
+  Total full wakelock time: 0ms , Total partial wakelock time: 2m 32s 316ms 
+  Signal levels: excellent 14m 57s 354ms (100.0%) 0x
+  Signal scanning time: 0ms 
+  Radio types: none 14m 57s 354ms (100.0%) 0x
+  Radio data uptime when unplugged: 0 ms
+  Wifi on: 14m 57s 354ms (100.0%), Wifi running: 14m 57s 354ms (100.0%), Bluetooth on: 0ms (0.0%)
+ 
+  Device battery use since last full charge
+    Amount discharged (lower bound): 2
+    Amount discharged (upper bound): 3
+    Amount discharged while screen on: 3
+    Amount discharged while screen off: 0
+
+  All partial wake locks:
+  Wake lock 1013 AudioMix: 2m 10s 349ms (79 times) realtime
+  Wake lock 1000 ActivityManager-Launch: 8s 797ms (43 times) realtime
+  Wake lock 1000 AudioMix: 8s 689ms (56 times) realtime
+  Wake lock 1000 AlarmManager: 1s 27ms (22 times) realtime
+  Wake lock 1000 QcConnectivityService: 1s 23ms (1 times) realtime
+  Wake lock u0a1 StartingAlertService: 493ms (8 times) realtime
+  Wake lock 1000 NetworkStats: 462ms (8 times) realtime
+  Wake lock u0a99 pushagentPoxy: 395ms (1 times) realtime
+  Wake lock u0a104 AlarmManager: 261ms (6 times) realtime
+  Wake lock 1000 DHCP: 197ms (1 times) realtime
+  Wake lock u0a22 ScheduleNextAlarmWakeLock: 194ms (8 times) realtime
+  Wake lock u0a92 AGOO_LIB: 96ms (2 times) realtime
+  Wake lock u0a22 AlarmManager: 84ms (8 times) realtime
+  Wake lock u0a99 AlarmManager: 57ms (3 times) realtime
+  Wake lock 1000 LocationService: 48ms (1 times) realtime
+  Wake lock 1000 GpsLocationProvider: 41ms (1 times) realtime
+  Wake lock 1000 SyncLoopWakeLock: 40ms (7 times) realtime
+  Wake lock u0a99 *sync*/com.myzaker.ZAKER_Phone/com.myzaker.ZAKER_Phone.type/ZAKER新闻: 19ms (1 times) realtime
+  Wake lock u0a99 eventLooper: 17ms (2 times) realtime
+  Wake lock 1000 SyncManagerHandleSyncAlarm: 17ms (3 times) realtime
+  Wake lock 1000 BugReport: 4ms (1 times) realtime
+  Wake lock u0a99 MQTT: 3ms (1 times) realtime
+  Wake lock u0a69 LocationManagerService: 2ms (1 times) realtime
+  Wake lock u0a30 AlarmManager: 1ms (1 times) realtime
+
+  0:
+    Wi-Fi network: 1.71MB received, 33.50MB sent
+    Proc kworker/u:2H:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc subsystem_ramdump:
+      CPU: 30ms usr + 20ms krn ; 0ms fg
+    Proc RX_Thread:
+      CPU: 0ms usr + 4s 50ms krn ; 0ms fg
+    Proc irq/289-wcd9xxx:
+      CPU: 0ms usr + 40ms krn ; 0ms fg
+    Proc vold:
+      CPU: 50ms usr + 60ms krn ; 0ms fg
+    Proc kworker/u:4:
+      CPU: 0ms usr + 1s 500ms krn ; 0ms fg
+    Proc kworker/u:3:
+      CPU: 0ms usr + 1s 240ms krn ; 0ms fg
+    Proc kworker/u:6:
+      CPU: 0ms usr + 330ms krn ; 0ms fg
+    Proc kworker/u:7:
+      CPU: 0ms usr + 1s 200ms krn ; 0ms fg
+    Proc kthreadd:
+      CPU: 0ms usr + 460ms krn ; 0ms fg
+    Proc irq/170-msm_sdc:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc TX_Thread:
+      CPU: 0ms usr + 3s 840ms krn ; 0ms fg
+    Proc jbd2/mmcblk0p29:
+      CPU: 0ms usr + 240ms krn ; 0ms fg
+    Proc kworker/u:9:
+      CPU: 0ms usr + 500ms krn ; 0ms fg
+    Proc kworker/0:5:
+      CPU: 0ms usr + 60ms krn ; 0ms fg
+    Proc kworker/u:0:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/0:0:
+      CPU: 10ms usr + 770ms krn ; 0ms fg
+    Proc kworker/0:1:
+      CPU: 0ms usr + 570ms krn ; 0ms fg
+    Proc kworker/0:2:
+      CPU: 0ms usr + 50ms krn ; 0ms fg
+    Proc kworker/u:2:
+      CPU: 0ms usr + 1s 80ms krn ; 0ms fg
+    Proc kworker/u:1:
+      CPU: 0ms usr + 990ms krn ; 0ms fg
+    Proc kworker/u:1H:
+      CPU: 0ms usr + 2s 30ms krn ; 0ms fg
+    Proc ngd_rx_thread1:
+      CPU: 0ms usr + 30ms krn ; 0ms fg
+    Proc MC_Thread:
+      CPU: 0ms usr + 360ms krn ; 0ms fg
+    Proc ueventd:
+      CPU: 20ms usr + 50ms krn ; 0ms fg
+    Proc mdss_fb0:
+      CPU: 0ms usr + 2s 40ms krn ; 0ms fg
+    Proc system:
+      CPU: 0ms usr + 470ms krn ; 0ms fg
+    Proc kworker/0:2H:
+      CPU: 0ms usr + 1s 240ms krn ; 0ms fg
+    Proc mdbd:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc /init:
+      CPU: 10ms usr + 10ms krn ; 0ms fg
+    Proc ksoftirqd/0:
+      CPU: 0ms usr + 2s 0ms krn ; 0ms fg
+    Proc flush-0:18:
+      CPU: 0ms usr + 90ms krn ; 0ms fg
+    Proc mpdecision:
+      CPU: 220ms usr + 7s 950ms krn ; 0ms fg
+    Proc flush-0:19:
+      CPU: 10ms usr + 70ms krn ; 0ms fg
+    Proc w1_bus_master1:
+      CPU: 0ms usr + 2s 560ms krn ; 0ms fg
+    Proc kworker/0:1H:
+      CPU: 0ms usr + 1s 940ms krn ; 0ms fg
+    Proc netd:
+      CPU: 50ms usr + 160ms krn ; 0ms fg
+    Proc mmcqd/0:
+      CPU: 0ms usr + 1s 330ms krn ; 0ms fg
+    Proc zygote:
+      CPU: 40ms usr + 40ms krn ; 0ms fg
+    Proc flush-0:21:
+      CPU: 20ms usr + 50ms krn ; 0ms fg
+    Proc flush-179:0:
+      CPU: 0ms usr + 490ms krn ; 0ms fg
+    Proc flush-0:20:
+      CPU: 20ms usr + 50ms krn ; 0ms fg
+    Proc healthd:
+      CPU: 0ms usr + 250ms krn ; 0ms fg
+    Proc kworker/u:10:
+      CPU: 0ms usr + 230ms krn ; 0ms fg
+    Proc kworker/u:11:
+      CPU: 0ms usr + 80ms krn ; 0ms fg
+    Proc kworker/u:0H:
+      CPU: 0ms usr + 1s 160ms krn ; 0ms fg
+    Proc sync_supers:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+  1000:
+    Wi-Fi network: 1.18KB received, 1.43KB sent
+    User activity: 332 other, 950 button, 247 touch
+    Wake lock GpsLocationProvider: 41ms partial (1 times) realtime
+    Wake lock SyncManagerHandleSyncAlarm: 17ms partial (3 times) realtime
+    Wake lock LocationService: 48ms partial (1 times) realtime
+    Wake lock DHCP: 197ms partial (1 times) realtime
+    Wake lock NetworkStats: 462ms partial (8 times) realtime
+    Wake lock ActivityManager-Launch: 8s 797ms partial (43 times) realtime
+    Wake lock QcConnectivityService: 1s 23ms partial (1 times) realtime
+    Wake lock AudioMix: 8s 689ms partial (56 times) realtime
+    Wake lock AlarmManager: 1s 27ms partial (22 times) realtime
+    Wake lock BugReport: 4ms partial (1 times) realtime
+    Wake lock SyncLoopWakeLock: 40ms partial (7 times) realtime
+    TOTAL wake: 20s 345ms partial realtime
+    Proc com.miui.bugreport:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 proc starts
+    Proc com.android.settings:
+      CPU: 170ms usr + 80ms krn ; 0ms fg
+    Proc com.xiaomi.dm:
+      CPU: 10ms usr + 20ms krn ; 0ms fg
+    Proc com.miui.securitycenter:
+      CPU: 60ms usr + 10ms krn ; 0ms fg
+    Proc com.android.settings:remote:
+      CPU: 20ms usr + 10ms krn ; 0ms fg
+    Proc system_server:
+      CPU: 12s 890ms usr + 10s 460ms krn ; 0ms fg
+    Proc qrngd:
+      CPU: 0ms usr + 150ms krn ; 0ms fg
+    Proc charger_monitor:
+      CPU: 20ms usr + 20s 940ms krn ; 0ms fg
+    Proc surfaceflinger:
+      CPU: 5s 220ms usr + 7s 600ms krn ; 0ms fg
+    Proc com.qualcomm.services.location:
+      CPU: 20ms usr + 30ms krn ; 0ms fg
+    Proc cnd:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+    Proc com.android.systemui:
+      CPU: 2s 380ms usr + 1s 180ms krn ; 0ms fg
+    Proc com.miui.networkassistant:
+      CPU: 80ms usr + 60ms krn ; 0ms fg
+    Proc immvibed:
+      CPU: 10ms usr + 60ms krn ; 0ms fg
+    Proc servicemanager:
+      CPU: 40ms usr + 170ms krn ; 0ms fg
+    Apk android:
+      6 wakeup alarms
+    Apk com.miui.bugreport:
+      Service com.miui.bugreport.service.ErrorReportBackgroundService:
+        Created for: 9ms uptime
+        Starts: 1, launches: 1
+    Apk com.android.settings:
+      Service com.android.settings.cloud.CloudSettingsService:
+        Created for: 173ms uptime
+        Starts: 1, launches: 1
+  1001:
+    Proc rild:
+      CPU: 10ms usr + 10ms krn ; 0ms fg
+    Proc qmuxd:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc com.android.phone:
+      CPU: 50ms usr + 60ms krn ; 0ms fg
+  1010:
+    Proc wpa_supplicant:
+      CPU: 90ms usr + 230ms krn ; 0ms fg
+  1013:
+    Wake lock AudioMix: 2m 10s 349ms partial (79 times) realtime
+    Proc mediaserver:
+      CPU: 2s 130ms usr + 7s 260ms krn ; 0ms fg
+  1014:
+    Wi-Fi network: 1.92KB received, 1.92KB sent
+    Proc dhcpcd:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+  1023:
+    Proc sdcard:
+      CPU: 30ms usr + 1s 500ms krn ; 0ms fg
+  2000:
+    Proc adbd:
+      CPU: 13s 670ms usr + 12s 340ms krn ; 0ms fg
+  9800:
+    Proc com.miui.backup:
+      CPU: 20ms usr + 20ms krn ; 0ms fg
+  9801:
+    Proc com.android.thememanager:
+      CPU: 30ms usr + 10ms krn ; 0ms fg
+  9802:
+    Wi-Fi network: 4.83KB received, 4.55KB sent
+    Proc com.android.updater:
+      CPU: 10ms usr + 10ms krn ; 0ms fg
+  9999:
+    Proc hvdcp:
+      CPU: 10ms usr + 50ms krn ; 0ms fg
+    Proc sensors.qcom:
+      CPU: 890ms usr + 1s 660ms krn ; 0ms fg
+  u0a1:
+    Wake lock StartingAlertService: 493ms partial (8 times) realtime
+    Foreground activities: 3m 12s 929ms realtime (8 times)
+    Proc com.android.calendar:
+      CPU: 16s 450ms usr + 1s 830ms krn ; 15s 860ms fg
+    Apk com.android.calendar:
+      Service com.android.calendar.alerts.AlertService:
+        Created for: 450ms uptime
+        Starts: 8, launches: 8
+      Service com.android.calendar.birthday.BirthdayService:
+        Created for: 684ms uptime
+        Starts: 8, launches: 8
+      Service com.miui.calendar.online.SyncCalendarService:
+        Created for: 959ms uptime
+        Starts: 8, launches: 8
+  u0a3:
+    Proc android.process.acore:
+      CPU: 10ms usr + 20ms krn ; 0ms fg
+  u0a5:
+    Wi-Fi network: 552B received, 840B sent
+    Proc android.process.media:
+      CPU: 620ms usr + 70ms krn ; 0ms fg
+    Apk com.android.providers.downloads:
+      Service com.android.providers.downloads.DownloadService:
+        Created for: 88ms uptime
+        Starts: 1, launches: 1
+  u0a7:
+    Proc com.miui.gallery:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+  u0a8:
+    Foreground activities: 6m 50s 265ms realtime (22 times)
+    Proc com.miui.home:
+      CPU: 3s 450ms usr + 1s 60ms krn ; 3s 880ms fg
+  u0a20:
+    Foreground activities: 1m 44s 278ms realtime (7 times)
+    Proc com.android.browser:
+      CPU: 10s 40ms usr + 1s 710ms krn ; 9s 250ms fg
+  u0a21:
+    Foreground activities: 3m 9s 300ms realtime (7 times)
+    Proc com.android.calculator2:
+      CPU: 4s 170ms usr + 1s 30ms krn ; 5s 490ms fg
+      1 proc starts
+  u0a22:
+    Wake lock AlarmManager: 84ms partial (8 times) realtime
+    Wake lock ScheduleNextAlarmWakeLock: 194ms partial (8 times) realtime
+    TOTAL wake: 278ms partial realtime
+    Proc com.android.providers.calendar:
+      CPU: 1s 290ms usr + 960ms krn ; 0ms fg
+    Apk com.android.providers.calendar:
+      8 wakeup alarms
+      Service com.android.providers.calendar.CalendarProviderIntentService:
+        Created for: 203ms uptime
+        Starts: 8, launches: 8
+      Service com.android.providers.calendar.EmptyService:
+        Created for: 8s 178ms uptime
+        Starts: 8, launches: 8
+  u0a25:
+    Proc com.miui.cloudservice:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Apk com.miui.cloudservice:
+      Service com.miui.cloudservice.push.MicloudRegularSyncService:
+        Created for: 11ms uptime
+        Starts: 1, launches: 1
+  u0a29:
+    Apk com.android.email:
+      Service com.kingsoft.email.service.ImapPushService:
+        Created for: 29ms uptime
+        Starts: 1, launches: 1
+  u0a30:
+    Wake lock AlarmManager: 1ms partial (1 times) realtime
+    Proc com.android.fileexplorer:remote:
+      CPU: 10ms usr + 10ms krn ; 0ms fg
+  u0a32:
+    Proc com.xiaomi.gamecenter:
+      CPU: 40ms usr + 30ms krn ; 0ms fg
+    Apk com.xiaomi.gamecenter:
+      Service com.xiaomi.gamecenter.service.GlobalService:
+        Created for: 4ms uptime
+        Starts: 1, launches: 1
+  u0a33:
+    Proc com.xiaomi.gamecenter.sdk.service:
+      CPU: 20ms usr + 20ms krn ; 0ms fg
+  u0a34:
+    Proc com.google.android.inputmethod.pinyin:
+      CPU: 60ms usr + 60ms krn ; 0ms fg
+  u0a40:
+    Proc com.lbe.security.miui:service:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+  u0a47:
+    Proc com.miui.video:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 proc starts
+  u0a50:
+    Proc com.xiaomi.o2o:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+      1 proc starts
+  u0a53:
+    Proc com.xiaomi.payment:
+      CPU: 10ms usr + 20ms krn ; 0ms fg
+  u0a61:
+    Proc com.google.process.location:
+      CPU: 30ms usr + 30ms krn ; 0ms fg
+  u0a62:
+    Wi-Fi network: 600B received, 2.20KB sent
+    Proc com.xiaomi.market:
+      CPU: 30ms usr + 30ms krn ; 0ms fg
+    Apk com.xiaomi.market:
+      Service com.xiaomi.market.data.NetworkExportUpdateService:
+        Created for: 20s 164ms uptime
+        Starts: 1, launches: 1
+  u0a69:
+    Wake lock LocationManagerService: 2ms partial (1 times) realtime
+    Proc com.miui.weather2:weatherservice:
+      CPU: 10ms usr + 30ms krn ; 0ms fg
+    Apk com.miui.weather2:
+      Service com.miui.weather2.service.UpdateService:
+        Created for: 20s 271ms uptime
+        Starts: 1, launches: 1
+  u0a70:
+    Proc com.miui.providers.weather:receiverupdateweather:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 proc starts
+  u0a71:
+    Wi-Fi network: 3.17KB received, 6.49KB sent
+    Proc com.xiaomi.xmsf:
+      CPU: 350ms usr + 120ms krn ; 0ms fg
+    Apk com.xiaomi.xmsf:
+      Service com.xiaomi.xmsf.account.XiaomiAccountService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+  u0a92:
+    Wi-Fi network: 2.28KB received, 2.63KB sent
+    Wake lock AGOO_LIB: 96ms partial (2 times) realtime
+    Proc com.chanyouji.android:
+      CPU: 70ms usr + 30ms krn ; 0ms fg
+    Apk com.chanyouji.android:
+      Service com.chanyouji.android.UmengMessageIntentService:
+        Created for: 172ms uptime
+        Starts: 2, launches: 2
+  u0a99:
+    Wi-Fi network: 25.11KB received, 11.58KB sent
+    Wake lock eventLooper: 17ms partial (2 times) realtime
+    Wake lock MQTT: 3ms partial (1 times) realtime
+    Wake lock *sync*/com.myzaker.ZAKER_Phone/com.myzaker.ZAKER_Phone.type/ZAKER新闻: 19ms partial (1 times) realtime
+    Wake lock AlarmManager: 57ms partial (3 times) realtime
+    Wake lock pushagentPoxy: 395ms partial (1 times) realtime
+    TOTAL wake: 491ms partial realtime
+    Proc com.myzaker.ZAKER_Phone:pushservice:
+      CPU: 50ms usr + 20ms krn ; 0ms fg
+    Proc com.myzaker.ZAKER_Phone:
+      CPU: 20ms usr + 20ms krn ; 0ms fg
+    Proc com.myzaker.ZAKER_Phone:zaker:
+      CPU: 10ms usr + 30ms krn ; 0ms fg
+    Proc com.myzaker.ZAKER_Phone:v1:
+      CPU: 150ms usr + 70ms krn ; 0ms fg
+    Proc com.myzaker.ZAKER_Phone:channel:
+      CPU: 130ms usr + 170ms krn ; 0ms fg
+    Proc com.myzaker.ZAKER_Phone:remote:
+      CPU: 30ms usr + 20ms krn ; 0ms fg
+    Apk com.myzaker.ZAKER_Phone:
+      7 wakeup alarms
+      Service com.huawei.android.pushagent.PushService:
+        Created for: 18s 396ms uptime
+        Starts: 1, launches: 1
+      Service com.myzaker.ZAKER_Phone.view.sysaccount.SyncService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+  u0a104:
+    Wi-Fi network: 224B received, 384B sent
+    Wake lock AlarmManager: 261ms partial (6 times) realtime
+    Proc com.tencent.mm:
+      CPU: 110ms usr + 80ms krn ; 0ms fg
+    Proc com.tencent.mm:push:
+      CPU: 260ms usr + 110ms krn ; 0ms fg
+    Apk com.tencent.mm:
+      3 wakeup alarms
+  u0a105:
+    Wi-Fi network: 176B received, 120B sent
+    Proc com.trafficctr.miui:
+      CPU: 120ms usr + 50ms krn ; 0ms fg
+  u0a107:
+    Wi-Fi network: 587B received, 9.06KB sent
+    Proc com.google.play.store:core:
+      CPU: 900ms usr + 160ms krn ; 0ms fg
+
+Statistics since last unplugged:
+  Time on battery: 14m 57s 354ms (41.1%) realtime, 14m 57s 354ms (41.1%) uptime
+  Total run time: 36m 24s 165ms realtime, 36m 24s 166ms uptime, 
+  Screen on: 14m 57s 354ms (100.0%), Input events: 0, Active phone call: 0ms (0.0%)
+  Screen brightnesses: dim 14m 57s 354ms (100.0%)
+  Kernel Wake lock PowerManagerService.Display: 14m 57s 391ms (0 times) realtime
+  Kernel Wake lock charger_monitor: 8m 54s 214ms (637 times) realtime
+  Kernel Wake lock qcom_rx_wakelock: 2m 57s 723ms (3070 times) realtime
+  Kernel Wake lock PowerManagerService.WakeLocks: 2m 32s 304ms (112 times) realtime
+  Kernel Wake lock qpnp-vadc-f5cfbc00: 4s 56ms (757 times) realtime
+  Kernel Wake lock qpnp_soc_wake: 2s 943ms (45 times) realtime
+  Kernel Wake lock qpnp_wl     : 1s 886ms (1 times) realtime
+  Kernel Wake lock power-supply: 987ms (14 times) realtime
+  Kernel Wake lock ipc000000bf_sensors.qcom: 777ms (6944 times) realtime
+  Kernel Wake lock msm_otg     : 578ms (1 times) realtime
+  Kernel Wake lock alarm       : 414ms (35 times) realtime
+  Kernel Wake lock qpnp-iadc-f5cfbe00: 276ms (48 times) realtime
+  Kernel Wake lock ipc_rtr_q6_ipcrtr: 225ms (6995 times) realtime
+  Kernel Wake lock smdcntl0    : 16ms (37 times) realtime
+  Kernel Wake lock ipc000000bd_sensors.qcom: 14ms (90 times) realtime
+  Kernel Wake lock qcril       : 9ms (37 times) realtime
+  Kernel Wake lock qmuxd_port_wl_0: 6ms (37 times) realtime
+  Kernel Wake lock ipc00000002_kworker/2:1: 2ms (46 times) realtime
+  Kernel Wake lock ipc000000b6_Loc_hal_worker: 1ms (2 times) realtime
+  Kernel Wake lock KeyEvents   : 1ms (30 times) realtime
+  Mobile total received: 0B, Total sent: 0B
+  Wi-Fi total received: 1.75MB, Total sent: 33.54MB
+  Total full wakelock time: 0ms , Total partial wakelock time: 2m 32s 316ms 
+  Signal levels: excellent 14m 57s 354ms (100.0%) 0x
+  Signal scanning time: 0ms 
+  Radio types: none 14m 57s 354ms (100.0%) 0x
+  Radio data uptime when unplugged: 0 ms
+  Wifi on: 14m 57s 354ms (100.0%), Wifi running: 14m 57s 354ms (100.0%), Bluetooth on: 0ms (0.0%)
+ 
+  Device is currently plugged into power
+    Last discharge cycle start level: 100
+    Last discharge cycle end level: 97
+    Amount discharged while screen on: 3
+    Amount discharged while screen off: 0
+ 
+  All partial wake locks:
+  Wake lock 1013 AudioMix: 2m 10s 349ms (79 times) realtime
+  Wake lock 1000 ActivityManager-Launch: 8s 797ms (43 times) realtime
+  Wake lock 1000 AudioMix: 8s 689ms (56 times) realtime
+  Wake lock 1000 AlarmManager: 1s 27ms (22 times) realtime
+  Wake lock 1000 QcConnectivityService: 1s 23ms (1 times) realtime
+  Wake lock u0a1 StartingAlertService: 493ms (8 times) realtime
+  Wake lock 1000 NetworkStats: 462ms (8 times) realtime
+  Wake lock u0a99 pushagentPoxy: 395ms (1 times) realtime
+  Wake lock u0a104 AlarmManager: 261ms (6 times) realtime
+  Wake lock 1000 DHCP: 197ms (1 times) realtime
+  Wake lock u0a22 ScheduleNextAlarmWakeLock: 194ms (8 times) realtime
+  Wake lock u0a92 AGOO_LIB: 96ms (2 times) realtime
+  Wake lock u0a22 AlarmManager: 84ms (8 times) realtime
+  Wake lock u0a99 AlarmManager: 57ms (3 times) realtime
+  Wake lock 1000 LocationService: 48ms (1 times) realtime
+  Wake lock 1000 GpsLocationProvider: 41ms (1 times) realtime
+  Wake lock 1000 SyncLoopWakeLock: 40ms (7 times) realtime
+  Wake lock u0a99 *sync*/com.myzaker.ZAKER_Phone/com.myzaker.ZAKER_Phone.type/ZAKER新闻: 19ms (1 times) realtime
+  Wake lock u0a99 eventLooper: 17ms (2 times) realtime
+  Wake lock 1000 SyncManagerHandleSyncAlarm: 17ms (3 times) realtime
+  Wake lock 1000 BugReport: 4ms (1 times) realtime
+  Wake lock u0a99 MQTT: 3ms (1 times) realtime
+  Wake lock u0a69 LocationManagerService: 2ms (1 times) realtime
+  Wake lock u0a30 AlarmManager: 1ms (1 times) realtime
+
+  0:
+    Wi-Fi network: 1.71MB received, 33.50MB sent
+    Proc kworker/u:2H:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc subsystem_ramdump:
+      CPU: 30ms usr + 20ms krn ; 0ms fg
+    Proc RX_Thread:
+      CPU: 0ms usr + 4s 50ms krn ; 0ms fg
+    Proc irq/289-wcd9xxx:
+      CPU: 0ms usr + 40ms krn ; 0ms fg
+    Proc vold:
+      CPU: 50ms usr + 60ms krn ; 0ms fg
+    Proc kworker/u:4:
+      CPU: 0ms usr + 1s 500ms krn ; 0ms fg
+    Proc kworker/u:3:
+      CPU: 0ms usr + 1s 240ms krn ; 0ms fg
+    Proc kworker/u:6:
+      CPU: 0ms usr + 330ms krn ; 0ms fg
+    Proc kworker/u:7:
+      CPU: 0ms usr + 1s 200ms krn ; 0ms fg
+    Proc kthreadd:
+      CPU: 0ms usr + 460ms krn ; 0ms fg
+    Proc irq/170-msm_sdc:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc TX_Thread:
+      CPU: 0ms usr + 3s 840ms krn ; 0ms fg
+    Proc jbd2/mmcblk0p29:
+      CPU: 0ms usr + 240ms krn ; 0ms fg
+    Proc kworker/u:9:
+      CPU: 0ms usr + 500ms krn ; 0ms fg
+    Proc kworker/0:5:
+      CPU: 0ms usr + 60ms krn ; 0ms fg
+    Proc kworker/u:0:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc kworker/0:0:
+      CPU: 10ms usr + 770ms krn ; 0ms fg
+    Proc kworker/0:1:
+      CPU: 0ms usr + 570ms krn ; 0ms fg
+    Proc kworker/0:2:
+      CPU: 0ms usr + 50ms krn ; 0ms fg
+    Proc kworker/u:2:
+      CPU: 0ms usr + 1s 80ms krn ; 0ms fg
+    Proc kworker/u:1:
+      CPU: 0ms usr + 990ms krn ; 0ms fg
+    Proc kworker/u:1H:
+      CPU: 0ms usr + 2s 30ms krn ; 0ms fg
+    Proc ngd_rx_thread1:
+      CPU: 0ms usr + 30ms krn ; 0ms fg
+    Proc MC_Thread:
+      CPU: 0ms usr + 360ms krn ; 0ms fg
+    Proc ueventd:
+      CPU: 20ms usr + 50ms krn ; 0ms fg
+    Proc mdss_fb0:
+      CPU: 0ms usr + 2s 40ms krn ; 0ms fg
+    Proc system:
+      CPU: 0ms usr + 470ms krn ; 0ms fg
+    Proc kworker/0:2H:
+      CPU: 0ms usr + 1s 240ms krn ; 0ms fg
+    Proc mdbd:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc /init:
+      CPU: 10ms usr + 10ms krn ; 0ms fg
+    Proc ksoftirqd/0:
+      CPU: 0ms usr + 2s 0ms krn ; 0ms fg
+    Proc flush-0:18:
+      CPU: 0ms usr + 90ms krn ; 0ms fg
+    Proc mpdecision:
+      CPU: 220ms usr + 7s 950ms krn ; 0ms fg
+    Proc flush-0:19:
+      CPU: 10ms usr + 70ms krn ; 0ms fg
+    Proc w1_bus_master1:
+      CPU: 0ms usr + 2s 560ms krn ; 0ms fg
+    Proc kworker/0:1H:
+      CPU: 0ms usr + 1s 940ms krn ; 0ms fg
+    Proc netd:
+      CPU: 50ms usr + 160ms krn ; 0ms fg
+    Proc mmcqd/0:
+      CPU: 0ms usr + 1s 330ms krn ; 0ms fg
+    Proc zygote:
+      CPU: 40ms usr + 40ms krn ; 0ms fg
+    Proc flush-0:21:
+      CPU: 20ms usr + 50ms krn ; 0ms fg
+    Proc flush-179:0:
+      CPU: 0ms usr + 490ms krn ; 0ms fg
+    Proc flush-0:20:
+      CPU: 20ms usr + 50ms krn ; 0ms fg
+    Proc healthd:
+      CPU: 0ms usr + 250ms krn ; 0ms fg
+    Proc kworker/u:10:
+      CPU: 0ms usr + 230ms krn ; 0ms fg
+    Proc kworker/u:11:
+      CPU: 0ms usr + 80ms krn ; 0ms fg
+    Proc kworker/u:0H:
+      CPU: 0ms usr + 1s 160ms krn ; 0ms fg
+    Proc sync_supers:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+  1000:
+    Wi-Fi network: 1.18KB received, 1.43KB sent
+    User activity: 332 other, 950 button, 247 touch
+    Wake lock GpsLocationProvider: 41ms partial (1 times) realtime
+    Wake lock SyncManagerHandleSyncAlarm: 17ms partial (3 times) realtime
+    Wake lock LocationService: 48ms partial (1 times) realtime
+    Wake lock DHCP: 197ms partial (1 times) realtime
+    Wake lock NetworkStats: 462ms partial (8 times) realtime
+    Wake lock ActivityManager-Launch: 8s 797ms partial (43 times) realtime
+    Wake lock QcConnectivityService: 1s 23ms partial (1 times) realtime
+    Wake lock AudioMix: 8s 689ms partial (56 times) realtime
+    Wake lock AlarmManager: 1s 27ms partial (22 times) realtime
+    Wake lock BugReport: 4ms partial (1 times) realtime
+    Wake lock SyncLoopWakeLock: 40ms partial (7 times) realtime
+    TOTAL wake: 20s 345ms partial realtime
+    Proc com.miui.bugreport:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 proc starts
+    Proc com.android.settings:
+      CPU: 170ms usr + 80ms krn ; 0ms fg
+    Proc com.xiaomi.dm:
+      CPU: 10ms usr + 20ms krn ; 0ms fg
+    Proc com.miui.securitycenter:
+      CPU: 60ms usr + 10ms krn ; 0ms fg
+    Proc com.android.settings:remote:
+      CPU: 20ms usr + 10ms krn ; 0ms fg
+    Proc system_server:
+      CPU: 12s 890ms usr + 10s 460ms krn ; 0ms fg
+    Proc qrngd:
+      CPU: 0ms usr + 150ms krn ; 0ms fg
+    Proc charger_monitor:
+      CPU: 20ms usr + 20s 940ms krn ; 0ms fg
+    Proc surfaceflinger:
+      CPU: 5s 220ms usr + 7s 600ms krn ; 0ms fg
+    Proc com.qualcomm.services.location:
+      CPU: 20ms usr + 30ms krn ; 0ms fg
+    Proc cnd:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+    Proc com.android.systemui:
+      CPU: 2s 380ms usr + 1s 180ms krn ; 0ms fg
+    Proc com.miui.networkassistant:
+      CPU: 80ms usr + 60ms krn ; 0ms fg
+    Proc immvibed:
+      CPU: 10ms usr + 60ms krn ; 0ms fg
+    Proc servicemanager:
+      CPU: 40ms usr + 170ms krn ; 0ms fg
+    Apk android:
+      6 wakeup alarms
+    Apk com.miui.bugreport:
+      Service com.miui.bugreport.service.ErrorReportBackgroundService:
+        Created for: 9ms uptime
+        Starts: 1, launches: 1
+    Apk com.android.settings:
+      Service com.android.settings.cloud.CloudSettingsService:
+        Created for: 173ms uptime
+        Starts: 1, launches: 1
+  1001:
+    Proc rild:
+      CPU: 10ms usr + 10ms krn ; 0ms fg
+    Proc qmuxd:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Proc com.android.phone:
+      CPU: 50ms usr + 60ms krn ; 0ms fg
+  1010:
+    Proc wpa_supplicant:
+      CPU: 90ms usr + 230ms krn ; 0ms fg
+  1013:
+    Wake lock AudioMix: 2m 10s 349ms partial (79 times) realtime
+    Proc mediaserver:
+      CPU: 2s 130ms usr + 7s 260ms krn ; 0ms fg
+  1014:
+    Wi-Fi network: 1.92KB received, 1.92KB sent
+    Proc dhcpcd:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+  1023:
+    Proc sdcard:
+      CPU: 30ms usr + 1s 500ms krn ; 0ms fg
+  2000:
+    Proc adbd:
+      CPU: 13s 670ms usr + 12s 340ms krn ; 0ms fg
+  9800:
+    Proc com.miui.backup:
+      CPU: 20ms usr + 20ms krn ; 0ms fg
+  9801:
+    Proc com.android.thememanager:
+      CPU: 30ms usr + 10ms krn ; 0ms fg
+  9802:
+    Wi-Fi network: 4.83KB received, 4.55KB sent
+    Proc com.android.updater:
+      CPU: 10ms usr + 10ms krn ; 0ms fg
+  9999:
+    Proc hvdcp:
+      CPU: 10ms usr + 50ms krn ; 0ms fg
+    Proc sensors.qcom:
+      CPU: 890ms usr + 1s 660ms krn ; 0ms fg
+  u0a1:
+    Wake lock StartingAlertService: 493ms partial (8 times) realtime
+    Foreground activities: 3m 12s 929ms realtime (8 times)
+    Proc com.android.calendar:
+      CPU: 16s 450ms usr + 1s 830ms krn ; 15s 860ms fg
+    Apk com.android.calendar:
+      Service com.android.calendar.alerts.AlertService:
+        Created for: 450ms uptime
+        Starts: 8, launches: 8
+      Service com.android.calendar.birthday.BirthdayService:
+        Created for: 684ms uptime
+        Starts: 8, launches: 8
+      Service com.miui.calendar.online.SyncCalendarService:
+        Created for: 959ms uptime
+        Starts: 8, launches: 8
+  u0a3:
+    Proc android.process.acore:
+      CPU: 10ms usr + 20ms krn ; 0ms fg
+  u0a5:
+    Wi-Fi network: 552B received, 840B sent
+    Proc android.process.media:
+      CPU: 620ms usr + 70ms krn ; 0ms fg
+    Apk com.android.providers.downloads:
+      Service com.android.providers.downloads.DownloadService:
+        Created for: 88ms uptime
+        Starts: 1, launches: 1
+  u0a7:
+    Proc com.miui.gallery:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+  u0a8:
+    Foreground activities: 6m 50s 266ms realtime (22 times)
+    Proc com.miui.home:
+      CPU: 3s 450ms usr + 1s 60ms krn ; 3s 880ms fg
+  u0a20:
+    Foreground activities: 1m 44s 278ms realtime (7 times)
+    Proc com.android.browser:
+      CPU: 10s 40ms usr + 1s 710ms krn ; 9s 250ms fg
+  u0a21:
+    Foreground activities: 3m 9s 300ms realtime (7 times)
+    Proc com.android.calculator2:
+      CPU: 4s 170ms usr + 1s 30ms krn ; 5s 490ms fg
+      1 proc starts
+  u0a22:
+    Wake lock AlarmManager: 84ms partial (8 times) realtime
+    Wake lock ScheduleNextAlarmWakeLock: 194ms partial (8 times) realtime
+    TOTAL wake: 278ms partial realtime
+    Proc com.android.providers.calendar:
+      CPU: 1s 290ms usr + 960ms krn ; 0ms fg
+    Apk com.android.providers.calendar:
+      8 wakeup alarms
+      Service com.android.providers.calendar.CalendarProviderIntentService:
+        Created for: 203ms uptime
+        Starts: 8, launches: 8
+      Service com.android.providers.calendar.EmptyService:
+        Created for: 8s 178ms uptime
+        Starts: 8, launches: 8
+  u0a25:
+    Proc com.miui.cloudservice:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+    Apk com.miui.cloudservice:
+      Service com.miui.cloudservice.push.MicloudRegularSyncService:
+        Created for: 11ms uptime
+        Starts: 1, launches: 1
+  u0a29:
+    Apk com.android.email:
+      Service com.kingsoft.email.service.ImapPushService:
+        Created for: 29ms uptime
+        Starts: 1, launches: 1
+  u0a30:
+    Wake lock AlarmManager: 1ms partial (1 times) realtime
+    Proc com.android.fileexplorer:remote:
+      CPU: 10ms usr + 10ms krn ; 0ms fg
+  u0a32:
+    Proc com.xiaomi.gamecenter:
+      CPU: 40ms usr + 30ms krn ; 0ms fg
+    Apk com.xiaomi.gamecenter:
+      Service com.xiaomi.gamecenter.service.GlobalService:
+        Created for: 4ms uptime
+        Starts: 1, launches: 1
+  u0a33:
+    Proc com.xiaomi.gamecenter.sdk.service:
+      CPU: 20ms usr + 20ms krn ; 0ms fg
+  u0a34:
+    Proc com.google.android.inputmethod.pinyin:
+      CPU: 60ms usr + 60ms krn ; 0ms fg
+  u0a40:
+    Proc com.lbe.security.miui:service:
+      CPU: 0ms usr + 10ms krn ; 0ms fg
+  u0a47:
+    Proc com.miui.video:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 proc starts
+  u0a50:
+    Proc com.xiaomi.o2o:
+      CPU: 10ms usr + 0ms krn ; 0ms fg
+      1 proc starts
+  u0a53:
+    Proc com.xiaomi.payment:
+      CPU: 10ms usr + 20ms krn ; 0ms fg
+  u0a61:
+    Proc com.google.process.location:
+      CPU: 30ms usr + 30ms krn ; 0ms fg
+  u0a62:
+    Wi-Fi network: 600B received, 2.20KB sent
+    Proc com.xiaomi.market:
+      CPU: 30ms usr + 30ms krn ; 0ms fg
+    Apk com.xiaomi.market:
+      Service com.xiaomi.market.data.NetworkExportUpdateService:
+        Created for: 20s 164ms uptime
+        Starts: 1, launches: 1
+  u0a69:
+    Wake lock LocationManagerService: 2ms partial (1 times) realtime
+    Proc com.miui.weather2:weatherservice:
+      CPU: 10ms usr + 30ms krn ; 0ms fg
+    Apk com.miui.weather2:
+      Service com.miui.weather2.service.UpdateService:
+        Created for: 20s 271ms uptime
+        Starts: 1, launches: 1
+  u0a70:
+    Proc com.miui.providers.weather:receiverupdateweather:
+      CPU: 0ms usr + 0ms krn ; 0ms fg
+      1 proc starts
+  u0a71:
+    Wi-Fi network: 3.17KB received, 6.49KB sent
+    Proc com.xiaomi.xmsf:
+      CPU: 350ms usr + 120ms krn ; 0ms fg
+    Apk com.xiaomi.xmsf:
+      Service com.xiaomi.xmsf.account.XiaomiAccountService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+  u0a92:
+    Wi-Fi network: 2.28KB received, 2.63KB sent
+    Wake lock AGOO_LIB: 96ms partial (2 times) realtime
+    Proc com.chanyouji.android:
+      CPU: 70ms usr + 30ms krn ; 0ms fg
+    Apk com.chanyouji.android:
+      Service com.chanyouji.android.UmengMessageIntentService:
+        Created for: 172ms uptime
+        Starts: 2, launches: 2
+  u0a99:
+    Wi-Fi network: 25.11KB received, 11.58KB sent
+    Wake lock eventLooper: 17ms partial (2 times) realtime
+    Wake lock MQTT: 3ms partial (1 times) realtime
+    Wake lock *sync*/com.myzaker.ZAKER_Phone/com.myzaker.ZAKER_Phone.type/ZAKER新闻: 19ms partial (1 times) realtime
+    Wake lock AlarmManager: 57ms partial (3 times) realtime
+    Wake lock pushagentPoxy: 395ms partial (1 times) realtime
+    TOTAL wake: 491ms partial realtime
+    Proc com.myzaker.ZAKER_Phone:pushservice:
+      CPU: 50ms usr + 20ms krn ; 0ms fg
+    Proc com.myzaker.ZAKER_Phone:
+      CPU: 20ms usr + 20ms krn ; 0ms fg
+    Proc com.myzaker.ZAKER_Phone:zaker:
+      CPU: 10ms usr + 30ms krn ; 0ms fg
+    Proc com.myzaker.ZAKER_Phone:v1:
+      CPU: 150ms usr + 70ms krn ; 0ms fg
+    Proc com.myzaker.ZAKER_Phone:channel:
+      CPU: 130ms usr + 170ms krn ; 0ms fg
+    Proc com.myzaker.ZAKER_Phone:remote:
+      CPU: 30ms usr + 20ms krn ; 0ms fg
+    Apk com.myzaker.ZAKER_Phone:
+      7 wakeup alarms
+      Service com.huawei.android.pushagent.PushService:
+        Created for: 18s 396ms uptime
+        Starts: 1, launches: 1
+      Service com.myzaker.ZAKER_Phone.view.sysaccount.SyncService:
+        Created for: 0ms uptime
+        Starts: 0, launches: 1
+  u0a104:
+    Wi-Fi network: 224B received, 384B sent
+    Wake lock AlarmManager: 261ms partial (6 times) realtime
+    Proc com.tencent.mm:
+      CPU: 110ms usr + 80ms krn ; 0ms fg
+    Proc com.tencent.mm:push:
+      CPU: 260ms usr + 110ms krn ; 0ms fg
+    Apk com.tencent.mm:
+      3 wakeup alarms
+  u0a105:
+    Wi-Fi network: 176B received, 120B sent
+    Proc com.trafficctr.miui:
+      CPU: 120ms usr + 50ms krn ; 0ms fg
+  u0a107:
+    Wi-Fi network: 587B received, 9.06KB sent
+    Proc com.google.play.store:core:
+      CPU: 900ms usr + 160ms krn ; 0ms fg

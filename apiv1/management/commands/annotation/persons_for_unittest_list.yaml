@@ -1,0 +1,6 @@
+gzj:
+    modules:   [\apiv1\module\device, \apiv1\module\job]
+wmj:
+    modules:   [\apiv1\module\search, \apiv1\module\tboard]
+gfq:
+    modules:   [\apiv1\module\rds, \apiv1\module\user, \apiv1\module\system]

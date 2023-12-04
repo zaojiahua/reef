@@ -1,0 +1,16 @@
+stages:
+  - deploy
+deploy:
+  stage: deploy
+  script:
+    # variable 在gitlab schedule 页面配置
+    - echo $deploy_ip
+    - echo $CI_COMMIT_SHA
+    - echo $branch_name
+    - echo $encrypt_code
+    - echo `pwd`
+    - bash /home/gitlab-runner/reef_deploy.sh $deploy_ip $CI_COMMIT_SHA $branch_name $encrypt_code
+  only:
+    - schedules
+  tags:
+    - deploy
